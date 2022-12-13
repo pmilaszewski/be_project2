@@ -51,8 +51,8 @@
 {/block}
 
 {block name='head_icons'}
-  <link rel="icon" type="image/vnd.microsoft.icon" href="/themes/classic/img/favicon.ico?{$shop.favicon_update_time}">
-  <link rel="shortcut icon" type="image/x-icon" href="/themes/classic/img/favicon.ico?{$shop.favicon_update_time}">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/themes/classic/img/logo.ico?{$shop.favicon_update_time}">
+  <link rel="shortcut icon" type="image/x-icon" href="/themes/classic/img/logo.ico?{$shop.favicon_update_time}">
 {/block}
 
 {block name='stylesheets'}
