@@ -62,12 +62,12 @@
             {if $page.page_name == 'index'}
               <h1>
                 <a href="{$urls.base_url}">
-                  <img class="logo img-responsive" src="/themes/classic/img/logo.png" alt="{$shop.name}">
+                  <img class="logo img-responsive" src="/themes/classic/img_modified/logo.png" alt="{$shop.name}">
                 </a>
               </h1>
             {else}
                 <a href="{$urls.base_url}">
-                  <img class="logo img-responsive" src="/themes/classic/img/logo.png" alt="{$shop.name}">
+                  <img class="logo img-responsive" src="/themes/classic/img_modified/logo.png" alt="{$shop.name}">
                 </a>
             {/if}
         </div>
