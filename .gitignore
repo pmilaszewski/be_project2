@@ -22,5 +22,7 @@ admin-dev/export/
 admin-dev/import/
 download/
 img/
+!modules/blockreassurance/views/img
+!modules/ps_banner/img
 upload/
 
