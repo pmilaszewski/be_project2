@@ -30,7 +30,7 @@
 {/block}
 
 {block name='head_seo'}
-  <title>{block name='head_seo_title'}{$page.meta.title}{/block}</title>
+  <title>{block name='head_seo_title'}Argon{/block}</title>
   <meta name="description" content="{block name='head_seo_description'}{$page.meta.description}{/block}">
   <meta name="keywords" content="{block name='head_seo_keywords'}{$page.meta.keywords}{/block}">
   {if $page.meta.robots !== 'index'}
@@ -51,8 +51,8 @@
 {/block}
 
 {block name='head_icons'}
-  <link rel="icon" type="image/vnd.microsoft.icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
-  <link rel="shortcut icon" type="image/x-icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/themes/classic/img_modified/logo.ico?{$shop.favicon_update_time}">
+  <link rel="shortcut icon" type="image/x-icon" href="/themes/classic/img_modified/logo.ico?{$shop.favicon_update_time}">
 {/block}
 
 {block name='stylesheets'}
